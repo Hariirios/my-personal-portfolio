@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+    <title>Hariiri Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <div class="logo" data-aos="zoom-in" data-aos-duration="1000">
+                <span>Hariiri</span>
+            </div>
+          <div class="links">
+    <div class="link"><a href="#home">Home</a></div>
+    <div class="link"><a href="#about">About</a></div>
+    <div class="link"><a href="#skills">Skills</a></div>
+    <div class="link"><a href="#services">Services</a></div>
+    <div class="link"><a href="#blogs">Blogs</a></div>
+    <div class="link contact-btn"><a href="#contact">Contact Us</a></div>
+</div>
+            <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+        </div>
+       <div class="dropdown">
+    <div class="links">
+        <a href="#home" onclick="cancel()">Home</a>
+        <a href="#about" onclick="cancel()">About</a>
+        <a href="#skills" onclick="cancel()">Skills</a>
+        <a href="#services" onclick="cancel()">Services</a>
+        <a href="#blogs" onclick="cancel()">Blogs</a>
+        <a href="#contact" onclick="cancel()">Contact Us</a>
+        <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
+    </div>
+</div>
+    </nav>
+        <section id="home">
+            <div class="main-container">
+                <div class="image" data-aos="zoom-in-right" data-aos-duration="2500">
+                    <img src="picture.png" alt="">
+                </div>
+                <div class="content">
+                    <h1 data-aos="fade-left" data-aos-duration="1000" data-aos-delay="800">Hey I'm <span>Hariiri</span></h1>
+                    <div class="typewriter" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="900">I'm a developer</span></div>
+                    <p data-aos="flip-up" data-aos-duration="1000" data-aos-delay="1000">Hello! I'm a software developer with a passion for creating beautiful and functional web applications. I believe in the power of clean, efficient code to solve real-world problems and provide delightful user experiences. I specialize in building robust front-end interfaces using modern frameworks like React and Vue, and I'm proficient in JavaScript, HTML5, and CSS3. I'm always eager to learn new technologies and collaborate on projects that push the boundaries of what's possible on the web.</p>
+                    <div class="social-links" data-aos="flip-down" data-aos-duration="1000" data-aos-delay="1200">
+                       <a href="https://github.com/Hariirios" target="_blank">
+  <i class="fa-brands fa-github"></i>
+</a>
+
+                      <a href="https://instagram.com/hariiri.01" target="_blank">
+  <i class="fa-brands fa-instagram"></i>
+</a>
+
+                       <a href="https://www.linkedin.com/in/abdalle-ahmed-hassan-hariiri-948400298/" target="_blank">
+  <i class="fa-brands fa-linkedin"></i>
+</a>
+
+                     <a href="https://twitter.com/Hariiri01" target="_blank">
+  <i class="fa-brands fa-x-twitter"></i>
+</a>
+
+                    </div>
+                    <div class="btn" data-aos="zoom-out-left" data-aos-duration="1000" data-aos-delay="1300">
+                        <button>Download CV</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+<section id="about" class="page-section">
+  <div class="container">
+    <h2>About Me</h2>
+    <p>Hello! I'm Hariiri, a passionate and dedicated software developer with a knack for creating clean, efficient, and user-friendly web applications. My journey into coding began out of a curiosity to build and create, which quickly evolved into a passion for solving real-world problems with elegant code. I believe that technology should be accessible and intuitive, and I strive to bring that philosophy to every project I work on.</p>
+    <p>I specialize in building robust front-end interfaces using modern frameworks like React and Vue, and I'm proficient in the core web technologies: JavaScript, HTML5, and CSS3. I'm always eager to learn new technologies and collaborate on projects that push the boundaries of what's possible on the web.</p>
+    <p>Outside of coding, I enjoy [Your Hobby, e.g., hiking, reading, playing guitar], which helps me stay creative and balanced. I'm excited to connect with you and discuss how I can help bring your ideas to life!</p>
+  </div>
+</section>
+
+<section id="skills" class="page-section">
+  <div class="container">
+    <h2>My Skills</h2>
+    <div class="skills-grid">
+      <div class="skill-category">
+        <h3>Frontend Development</h3>
+        <ul>
+          <li>JavaScript (ES6+)</li>
+          <li>React & Redux</li>
+          <li>Vue.js</li>
+          <li>HTML5 & CSS3</li>
+          <li>Sass/SCSS</li>
+          <li>Responsive Design</li>
+        </ul>
+      </div>
+      <div class="skill-category">
+        <h3>Backend Development</h3>
+        <ul>
+          <li>Node.js & Express.js</li>
+          <li>Python & Django</li>
+          <li>RESTful APIs</li>
+          <li>Database Management (MongoDB, PostgreSQL)</li>
+        </ul>
+      </div>
+      <div class="skill-category">
+        <h3>Tools & Technologies</h3>
+        <ul>
+          <li>Git & GitHub</li>
+          <li>Webpack & Vite</li>
+          <li>VS Code</li>
+          <li>Figma</li>
+          <li>Heroku, Netlify, Vercel</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="services" class="page-section">
+  <div class="container">
+    <h2>What I Offer</h2>
+    <div class="services-grid">
+      <div class="service-card">
+        <h3>Custom Website Development</h3>
+        <p>I build bespoke, responsive, and high-performing websites from the ground up, tailored to your specific needs and goals.</p>
+      </div>
+      <div class="service-card">
+        <h3>User Interface (UI) Design</h3>
+        <p>I design intuitive and aesthetically pleasing user interfaces that provide a seamless and enjoyable user experience.</p>
+      </div>
+      <div class="service-card">
+        <h3>Website Maintenance & Support</h3>
+        <p>I provide ongoing support, updates, and maintenance to ensure your website remains secure, fast, and up-to-date.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="blogs" class="page-section">
+  <div class="container">
+    <h2>My Blog</h2>
+    <p>I occasionally write about topics I'm passionate about, from coding tutorials to reflections on the latest web technologies.</p>
+    <div class="blog-list">
+      <div class="blog-post">
+        <h3><a href="#">The Power of CSS Grid for Modern Layouts</a></h3>
+        <p>A deep dive into how CSS Grid can simplify complex website layouts and enhance your design capabilities.</p>
+        <span class="date">Published: July 20, 2025</span>
+      </div>
+      <div class="blog-post">
+        <h3><a href="#">Demystifying Asynchronous JavaScript</a></h3>
+        <p>A beginner-friendly guide to understanding and using async/await and Promises in JavaScript.</p>
+        <span class="date">Published: June 15, 2025</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="page-section">
+  <div class="container">
+    <h2>Get in Touch</h2>
+    <p>Whether you have a project in mind, a question, or just want to say hello, feel free to reach out. I'd love to hear from you!</p>
+   <form action="https://formspree.io/f/xzzvoeaz" method="POST" class="contact-form">
+  <div class="form-group">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+      <div class="form-group">
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+      </div>
+      <button type="submit" class="cta-button">Send Message</button>
+    </form>
+  </div>
+</section>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+          AOS.init({offset:0});
+        </script>
+        <script>
+            function hamburg(){
+                const navbar = document.querySelector(".dropdown")
+                navbar.style.transform = "translateY(0px)"
+            }
+            function cancel(){
+                const navbar = document.querySelector(".dropdown")
+                navbar.style.transform = "translateY(-500px)"
+            }
+        </script>
+</body>
+</html>
