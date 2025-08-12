@@ -477,3 +477,40 @@ section{
   /* Use a slightly darker shade for the hover effect */
   background-color: rgb(130, 80, 0);
 }
+@media (max-width: 884px) {
+  body {
+    overflow-y: visible;
+  }
+  nav .logo {
+    position: absolute;
+    top: 16px;
+    left: 15px;
+    font-size: 1.5rem;
+  }
+  .main-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .nav-container .links {
+    display: none;
+  }
+  .hamburg,
+  .cancel {
+    display: block;
+  }
+  .main-container .content {
+    width: 80%;
+  }
+  .social-links i {
+    width: 2.5rem;
+    height: 2.5rem;
+    font-size: 1.5rem;
+  }
+  .cancel {
+    color: white;
+  }
+  .main-container .image {
+    width: 80%;
+    margin-bottom: 0px;
+  }
+}
